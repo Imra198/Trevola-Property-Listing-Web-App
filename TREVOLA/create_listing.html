@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Listing</h1>
+        <div id="listingForm">
+            <form id="createListing">
+                <input type="text" id="title" placeholder="Title" required>
+                <input type="text" id="description" placeholder="Description" required>
+            
+                <input type="text" id="address" placeholder="Address" required>
+                <input type="number" id="latitude" placeholder="Latitude" required>
+                <input type="number" id="longitude" placeholder="Longitude" required>
+                <input type="number" id="price" placeholder="Price per Night" required>
+                <input type="text" id="amenities" placeholder="Amenities (comma separated)" required>
+                <input type="text" id="images" placeholder="Image (comma separated URLs)" required>
+
+                <button type="submit">Create Listing</button>
+            </form>
+            </div>
+    </div>
+
+    <!-- Include the listing-logic.js script to handle form submission and listing creation -->
+    <script type="module" src="listing-logic.js"></script>
+</body>
+</html>

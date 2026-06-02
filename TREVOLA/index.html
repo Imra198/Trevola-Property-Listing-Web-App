@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trevola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="container">
+        <h1>Welcome to Trevola</h1>
+        <div class="login-box">
+
+            <!-- Host login -->
+             <div class="card">
+                <h2>Host Login</h2>
+                <form id="hostform">
+                    <input type="text" id="hostUsername" placeholder="Username" required>
+                    <input type="password" id="hostPassword" placeholder="Password" required>
+                    <button type="submit">Login as Host</button>
+                    <button type="button" id="hostRegisterBtn">Register</button>
+                    <p id="message"></p>
+                </form>
+             </div>
+
+             <!-- User login -->
+             <div class="card">
+                <h2>User Login</h2>
+                <form id="userform">
+                    <input type="text" id="userUsername" placeholder="Username" required>
+                    <input type="password" id="userPassword" placeholder="Password" required>
+                    <button type="submit">Login as User</button>
+                    <button type="button" id="registerBtn">Register</button>
+                    <p id="message"></p>
+                </form>
+             </div>
+
+        </div>
+    </div>
+    <script src="file.js"></script>
+    
+
+</body>
+
+    
+</html>
